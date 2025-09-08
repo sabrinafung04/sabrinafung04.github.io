@@ -189,26 +189,38 @@ input {
   border: 1px solid #ccc;
   border-radius: 4px;
   font-family: "Noto Sans", sans-serif;
-  font-size: 1rem;
+  font-size: .8rem;
 }
 
-input[type="submit"] {
+button[type="submit"] {
   background-color: rgb(13, 30, 82);
   color: white;
   border: none;
   cursor: pointer;
+  padding: 10px 20px;
+  font-size: .8rem;
+  font-weight: bold;
+  font-family: "Noto Sans", sans-serif;
+  border-radius: 8px;
 }
 
-input[type="submit"]:hover {
+button[type="submit"]:hover {
   background-color: rgb(10, 23, 63);
 }
 
 textarea {
   width: 90%;
+ 
+  box-sizing: border-box;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-family: "Noto Sans", sans-serif;
   font-size: 1rem;
+
+  min-height: 100px;
+  max-height: 300px;
+  resize: vertical;
+
 }
