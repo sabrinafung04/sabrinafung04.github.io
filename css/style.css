@@ -21,7 +21,7 @@ nav {
 }
 
 nav p {
-    margin: 20px;
+    margin: 35px;
     font-weight: bold;
     
 }
@@ -82,7 +82,7 @@ header img {
   font-family: "Zain", sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin-top: 10px;
 }
 
@@ -105,8 +105,8 @@ hr {
 }
 
 .deco img {
-  height: 15%;
-  max-height: 100px; 
+  height: 25%;
+  max-height: 250px; 
   width: auto; 
 }
 
@@ -118,13 +118,14 @@ section {
   font-family: "Zain", sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: larger;
+  font-size: 2rem;
 }
 
 .deco h2 {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   color: rgb(13, 30, 82);  
+  text-align: center;   
 }
 
 section h3 {
@@ -207,6 +208,11 @@ section a:hover {
     nav {
       flex-direction: column;
       text-align: center;
+    }
+    
+    nav p {
+    margin: 15px;
+    font-weight: bold;
     }
 
     .three-col {
